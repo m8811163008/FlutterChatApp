@@ -49,7 +49,7 @@ class _ChatScreenState extends State<ChatScreen> {
                 Navigator.pop(context);
               }),
         ],
-        title: Text('⚡️Chat'),
+        title: Text('پیام رسان ⚡'),
         backgroundColor: Colors.lightBlueAccent,
       ),
       body: SafeArea(
@@ -81,7 +81,7 @@ class _ChatScreenState extends State<ChatScreen> {
                       });
                     },
                     child: Text(
-                      'Send',
+                      'ارسال',
                       style: kSendButtonTextStyle,
                     ),
                   ),
@@ -102,13 +102,17 @@ class MessagesStream extends StatelessWidget {
       stream: _firestore.collection('messages').snapshots(),
       builder: (context, snapshot) {
         if (!snapshot.hasData) {
-          return Center(
-            child: CircularProgressIndicator(
-              backgroundColor: Colors.lightBlueAccent,
+          return Padding(
+            padding: EdgeInsets.only(top: 30.0),
+            child: Center(
+              child: CircularProgressIndicator(
+                backgroundColor: Colors.lightBlueAccent,
+              ),
             ),
           );
         }
         final messages = snapshot.data.documents.reversed;
+        print(messages);
         List<MessageBubble> messageBubbles = [];
         for (var message in messages) {
           final messageText = message.data['text'];

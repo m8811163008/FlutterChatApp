@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "1055788443339",
-    "firebase_url": "https://flash-chat-58a2a.firebaseio.com",
-    "project_id": "flash-chat-58a2a",
-    "storage_bucket": "flash-chat-58a2a.appspot.com"
+    "project_number": "620045923045",
+    "firebase_url": "https://chatapp-aea2a.firebaseio.com",
+    "project_id": "chatapp-aea2a",
+    "storage_bucket": "chatapp-aea2a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1055788443339:android:26ee5a166746f262",
+        "mobilesdk_app_id": "1:620045923045:android:a76bc1802ba0aa8d8b5a0c",
         "android_client_info": {
-          "package_name": "co.appbrewery.flash_chat"
+          "package_name": "ir.miladHesami.flash_chat"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1055788443339-o0dpvs896iv6ju6s3kqhkndv0bt8cgoc.apps.googleusercontent.com",
+          "client_id": "620045923045-ruvr15jvcmb1geflssi67gd0o6tokjlb.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD6rctF2MNCGAIz2K70BQvTBfSJPHaaCqo"
+          "current_key": "AIzaSyBnrsI0AYCIk4S7WuNNshf8BE_3y_hjmF4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1055788443339-o0dpvs896iv6ju6s3kqhkndv0bt8cgoc.apps.googleusercontent.com",
+              "client_id": "620045923045-ruvr15jvcmb1geflssi67gd0o6tokjlb.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

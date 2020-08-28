@@ -48,7 +48,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                   email = value;
                 },
                 decoration:
-                    kTextFieldDecoration.copyWith(hintText: 'Enter your email'),
+                    kTextFieldDecoration.copyWith(hintText: 'ایمیل شما'),
               ),
               SizedBox(
                 height: 8.0,
@@ -60,13 +60,13 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                   password = value;
                 },
                 decoration: kTextFieldDecoration.copyWith(
-                    hintText: 'Enter your password'),
+                    hintText: 'رمز عبور'),
               ),
               SizedBox(
                 height: 24.0,
               ),
               RoundedButton(
-                title: 'Register',
+                title: 'ثبت نام',
                 colour: Colors.blueAccent,
                 onPressed: () async {
                   setState(() {
